@@ -42,8 +42,17 @@ body{
   font-size: 1rem;
 }
 /*Input field for the info from the user*/
-
+.main-input-parent{
+  position: absolute;
+  top: 60%;
+  left: 30%;
+}
 /*SUBMIT BUTTON*/
+.main-btn-parent{
+  position: absolute;
+  left: 35%;
+  line-height: 10rem;
+}
 .input-btn{
   padding: 1rem 3rem 1rem 3rem;
   font-weight: bold;
