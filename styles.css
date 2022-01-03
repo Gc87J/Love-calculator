@@ -4,17 +4,18 @@
   padding: 0;
 }
 body{
-  background-color: #FF5677;
+  background-color: #84DFFF
+  ;
 }
 
 
 /*This is the start of the navigation bar*/
 .navbar{
-  background-color:#9145B6 ;
+  background-color:#FFFCDC;
   padding: 0.5rem 0rem 0.5rem 0rem;
 }
 .nav-brand{
-  color: #fff;
+  color: #000;
   margin: 2rem;
 }
 /*This is the end of the navigation bar*/
@@ -36,7 +37,7 @@ body{
 .body-text{
   position: absolute;
   left: 25rem;
-  bottom: 27rem;
+  bottom: 38rem;
   color: #000;
   font-weight: bold;
   font-size: 1rem;
@@ -46,6 +47,25 @@ body{
   position: absolute;
   top: 60%;
   left: 30%;
+  
+}
+/*The styling for the input fields*/
+.male-input-field{
+  background-color: #EDD2F3;
+  height: 1.8rem;
+  width: auto;
+  border-radius: 8px;
+  border-color: transparent;
+  text-align: center;
+}
+.female-input-field{
+  background-color: #EDD2F3;
+  height: 1.8rem;
+  width: auto;
+  margin-left: 80px;
+  border-radius: 8px;
+  border-color: transparent;
+  text-align: center;
 }
 /*SUBMIT BUTTON*/
 .main-btn-parent{
@@ -56,8 +76,10 @@ body{
 .input-btn{
   padding: 1rem 3rem 1rem 3rem;
   font-weight: bold;
+  font-size: larger;
   border-radius: 1rem;
-  background-color: #4C3F91;
+  background-color: #EDD2F3;
+  border-color: transparent;
   }
 
 
