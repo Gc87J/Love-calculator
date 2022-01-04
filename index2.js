@@ -1,9 +1,42 @@
 
+/* This is the creation of the random numnber start*/
+
+  
+let percentage = document.querySelector(".par-text")
+
+/*percentage.innerHTML = Math.floor(Math.random() * 102) + 1;*/
+
+let fullPercentage = percentage.innerHTML = Math.floor(Math.random() * 103) + 1;
+ 
+
+/*This is the creation of the random number end*/
+
+/* start */
+let maleUserName = document.querySelector(".male-input-field")
+
+let femaleUserName = document.querySelector(".female-input-field")
+
+let submitBtn = document.querySelector(".input-btn")
+
+submitBtn.addEventListener("click", submitted )
+
+function submitted(){
+if (percentage < 20) {
+
+  return "LETS GO BABY"
+}
+};
+
+/* end */
+
+
+
+
+/*This is foe the male button start*/
+
 let male = document.querySelector("#male")
 
 let female = document.querySelector("#female")
-
-
 
 male.addEventListener("click", maleRespond)
 
@@ -21,25 +54,85 @@ alert(rndNum)
 
 function maleRespond() {
   
-  alert(maleTesting)
+  
 
 };
 
 function femaleRespond() {
   
-  alert(femaleTesting)
+  
 }
 
 function maleTesting(){
-  if (2 + 2 === 4){
-    alert("Lets go baby!")
-  }
-}
+  
+  
+}  
 
 function femaleTesting() {
+  
+} 
 
+/*Below here is the code for the section that shows the respondes*/
+
+let completeAnswer = document.querySelector(".user-answer")
+
+
+
+completeAnswer.innerHTML 
+
+
+
+/*Above here is the code for the section that shows the respondes*/
+
+
+
+/*This is the end of the male button function*/
+
+/*THE IF STATEMENTS FOR THE MALE ANSWERS*/
+
+/*
+if ( percentage < 20 ) {
+
+return "Nigga get tf outa here, you know that"+ femaleUserName+ " is not fucking with you bro. SHE DON'T LIKE YOU BRO, GO GET A LIFE."  
 }
 
+else if (percentage <= 35 && >=20 ) {
 
+  return "Haha, you really think "+femaleUserName+ " likes you smh? Get back to reality bro.. "
+}  
+
+else if (percentage <= 50 && >=35) {
+
+  return "Okay, we are getting somewhere. Did you tell "+femaleUserName+ " yet? What are you waiting on?"
+}  
+
+else if (percentage <= 80 && >=50) {
+
+  return "Yes my brother, "+femaleUserName+" should really know you like her."
+}  
+
+else if (percentage <= 95 && >= 80) {
+
+  return "City boys we up!! Bro at this point minimum"+femaleUserName+" she is getting dicked down."
+}  
+
+else if (percentage <= 100 && >= 95) {
+
+  return "TF you doing here bro, get off here an go fuck that bicth. She wants you"
+}  
+
+else if (percentage > 100) {
+
+  return "Fuck it, at this point the both of you should have been already have baby together already."
+}  
+*/
+
+/*The end of the male respondes*/
+
+
+/*The start of the female respondes*/
+
+
+/*The end of the female respondes*/
 
 

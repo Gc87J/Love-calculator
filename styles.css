@@ -42,6 +42,26 @@ body{
   font-weight: bold;
   font-size: 1rem;
 }
+
+/*THIS IS FOR THE PERCENTAGE NOTIFIER*/
+.body-par{
+  display: flex;
+position: relative;
+left: 43rem;
+top: 5rem;
+}
+.par-text{
+color: #F90716;
+font-weight: bold;
+font-size: xxx-large;
+}
+.par-sign{
+color: #000;
+font-weight: bold;
+font-size: xxx-large;
+
+}
+
 /*Input field for the info from the user*/
 .main-input-parent{
   position: absolute;
