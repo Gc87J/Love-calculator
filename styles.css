@@ -104,3 +104,23 @@ font-size: xxx-large;
 
 
 /*Input field for the info from the user end*/
+
+/*This is for the pop up*/
+/*
+.popup-body{
+position: absolute;
+left: 40%;
+width: 350px;
+height: 350px;
+border: #000 solid 2px;
+background-color: transparent;
+visibility: hidden;
+}
+.answer-popup{
+position: relative;
+top: 40%;
+
+}
+*/
+
+/*Media Queries*/

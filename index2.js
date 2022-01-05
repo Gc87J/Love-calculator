@@ -6,12 +6,13 @@ let percentage = document.querySelector(".par-text")
 
 /*percentage.innerHTML = Math.floor(Math.random() * 102) + 1;*/
 
-let fullPercentage = percentage.innerHTML = Math.floor(Math.random() * 103) + 1;
+let fullPercentage = percentage.textContent = Math.floor(Math.random() * 103) + 1;
  
 
 /*This is the creation of the random number end*/
 
 /* start */
+/*
 let maleUserName = document.querySelector(".male-input-field")
 
 let femaleUserName = document.querySelector(".female-input-field")
@@ -26,6 +27,7 @@ if (percentage < 20) {
   return "LETS GO BABY"
 }
 };
+*/
 
 /* end */
 
@@ -33,6 +35,7 @@ if (percentage < 20) {
 
 
 /*This is foe the male button start*/
+/*
 
 let male = document.querySelector("#male")
 
@@ -73,13 +76,13 @@ function femaleTesting() {
 } 
 
 /*Below here is the code for the section that shows the respondes*/
-
+/*
 let completeAnswer = document.querySelector(".user-answer")
 
 
 
 completeAnswer.innerHTML 
-
+*/
 
 
 /*Above here is the code for the section that shows the respondes*/
@@ -131,6 +134,43 @@ else if (percentage > 100) {
 
 
 /*The start of the female respondes*/
+/*
+if (percentage < 20) {
+
+  return "My friend tf you doing, you know that "+maleUserName+ " is not fucking with you . HE DON'T LIKE YOU, GO GET A LIFE."
+}
+
+else if (percentage <= 35 && >=20 ){
+
+return "Haha, you really think "+maleUserName+" likes you smh? Get back to reality lmao.."
+}
+
+else if (percentage <= 50 && >=35){
+
+return "Okay, we are getting somewhere. Did you tell "+maleUserName+" yet? What are you waiting on?"
+}
+
+else if (percentage <= 80 && >=50){
+
+return "Yes my sister, "+maleUserName+" should really know you like him."
+}
+
+else if (percentage <= 95 && >= 80){
+
+return " City girls we up!! At this point minimum "+maleUserName+" should be getting the gawk gawk 3000 from you."
+}
+
+else if (percentage <= 100 && >= 95){
+
+return "TF you doing here, get off here an go fuck that nigga.He wants you "
+}
+
+else if (percentage > 100){
+
+return "Fuck it, at this point the both of you should have been already have baby together already."
+}
+
+*/
 
 
 /*The end of the female respondes*/
