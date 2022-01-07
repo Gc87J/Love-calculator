@@ -124,3 +124,20 @@ top: 40%;
 */
 
 /*Media Queries*/
+
+
+/*768px*/
+@media (min-width: 768px) {
+.navbar{
+  background-color: #000;
+}
+}
+
+/*990px*/
+@media (min-width: 990px) {
+  .navbar{
+    background-color: #F90716;
+  }
+}
+
+/*1320px*/
