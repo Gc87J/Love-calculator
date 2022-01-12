@@ -126,8 +126,8 @@ top: 40%;
 /*Media Queries*/
 
 
-/*768px*/
-@media (min-width: 768px) {
+/*320px*/
+@media (min-width: 320px) {
 .navbar{
   background-color: #000;
 }
@@ -141,3 +141,8 @@ top: 40%;
 }
 
 /*1320px*/
+@media (min-width: 1320px) {
+  .navbar{
+    background-color: #FFFCDC;
+  }
+}
