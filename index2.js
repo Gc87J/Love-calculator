@@ -7,7 +7,6 @@ const percentage = document.querySelector(".body-par");
 const fullPercentage = percentage.textContent = Math.floor(Math.random() * 103) + 1;
 
 
-
  
 const submitBtn = document.querySelector("h2");
 
