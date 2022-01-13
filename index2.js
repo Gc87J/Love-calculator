@@ -2,12 +2,24 @@
 /* This is the creation of the random numnber start*/
 
   
-let percentage = document.querySelector(".par-text")
+const percentage = document.querySelector(".body-par");
 
-/*percentage.innerHTML = Math.floor(Math.random() * 102) + 1;*/
+const fullPercentage = percentage.textContent = Math.floor(Math.random() * 103) + 1;
 
-let fullPercentage = percentage.textContent = Math.floor(Math.random() * 103) + 1;
+
+
  
+const submitBtn = document.querySelector("h2");
+
+submitBtn.addEventListener("click",show);
+
+
+
+
+function show(){
+  fullPercentage.style.display = "flex";
+}
+
 
 /*This is the creation of the random number end*/
 

@@ -20,19 +20,21 @@ body{
   font-size: 20px;
 }
 .body-par{
-  display: flex;
+  display: none;
   position: relative;
   top: 8em;
   left: 9em;
-  
+  font-size: xxx-large;
+  color: #ff0000;
 
 }
+/*
 .body-par p{
   font-size: xxx-large;
 }
 .body-par .par-text{
   color: #ff0000;
-}
+}*/
 .main-input-parent{
   position: relative;
   top: 13em;
