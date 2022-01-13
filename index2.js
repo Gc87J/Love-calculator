@@ -11,6 +11,8 @@ let fullPercentage = percentage.textContent = Math.floor(Math.random() * 103) + 
 
 /*This is the creation of the random number end*/
 
+
+
 /* start */
 /*
 let maleUserName = document.querySelector(".male-input-field")

@@ -3,141 +3,61 @@
   margin: 0;
   padding: 0;
 }
-body{
-  background-color: #84DFFF
-  ;
-}
-
-
-/*This is the start of the navigation bar*/
 .navbar{
-  background-color:#FFFCDC;
-  padding: 0.5rem 0rem 0.5rem 0rem;
+  background: #FFFCDC;
 }
-.nav-brand{
-  color: #000;
-  margin: 2rem;
+.nav-brand h2{
+  font-family: 'roboto', sans-serif;
+  font-size: 100;
 }
-/*This is the end of the navigation bar*/
-
-/*This is the start of the checkbox*/
+body{
+  background: #84DFFF;
+}
 .checkboxs-parent{
   position: relative;
-  left:2rem ;
-  font-weight: bold;
+  left: 15px;
+  font-size: 20px;
 }
-.checkbox-title{
-  font-size: 1rem;
- 
-}
-
-/*This is the end of the checkbox*/
-
-/*This is for the text to the right of the checkboxes*/
-.body-text{
-  position: absolute;
-  left: 25rem;
-  bottom: 38rem;
-  color: #000;
-  font-weight: bold;
-  font-size: 1rem;
-}
-
-/*THIS IS FOR THE PERCENTAGE NOTIFIER*/
 .body-par{
   display: flex;
-position: relative;
-left: 43rem;
-top: 5rem;
-}
-.par-text{
-color: #F90716;
-font-weight: bold;
-font-size: xxx-large;
-}
-.par-sign{
-color: #000;
-font-weight: bold;
-font-size: xxx-large;
+  position: relative;
+  top: 8em;
+  left: 10em;
+  
 
 }
-
-/*Input field for the info from the user*/
-.main-input-parent{
-  position: absolute;
-  top: 60%;
-  left: 30%;
+.body-par.par-text{
   
 }
-/*The styling for the input fields*/
-.male-input-field{
-  background-color: #EDD2F3;
-  height: 1.8rem;
-  width: auto;
-  border-radius: 8px;
-  border-color: transparent;
-  text-align: center;
+.main-input-parent{
+  position: relative;
+  top: 13em;
+  left: 2em;
+  line-height: 5em;
+  
 }
-.female-input-field{
-  background-color: #EDD2F3;
-  height: 1.8rem;
-  width: auto;
-  margin-left: 80px;
-  border-radius: 8px;
-  border-color: transparent;
+.main-input-parent input {
+  height: 30px;
+  width: 300px;
+  border: 1px solid #000;
+  border-radius: 20em;
+  font-size: 20px;
+  color: #000;
+  background-color:#EDD2F3 ;
   text-align: center;
+  font-family: montserrat, sans-serif;
+
 }
-/*SUBMIT BUTTON*/
-.main-btn-parent{
+.main-btn-parent {
   position: absolute;
-  left: 35%;
-  line-height: 10rem;
+  left: 5em;
 }
-.input-btn{
-  padding: 1rem 3rem 1rem 3rem;
+.main-btn-parent button{
+  padding: 10px 40px 10px 40px;
+  border:1px solid #EDD2F3;
+  font-size: large;
   font-weight: bold;
-  font-size: larger;
-  border-radius: 1rem;
   background-color: #EDD2F3;
-  border-color: transparent;
-  }
-
-
-/*Input field for the info from the user end*/
-
-/*This is for the pop up*/
-/*
-.popup-body{
-position: absolute;
-left: 40%;
-width: 350px;
-height: 350px;
-border: #000 solid 2px;
-background-color: transparent;
-visibility: hidden;
+  border-radius: 20em;
+  font-family: montserrat;
 }
-.answer-popup{
-position: relative;
-top: 40%;
-
-}
-*/
-
-/*Media Queries*/
-
-
-/*768px*/
-@media (min-width: 768px) {
-.navbar{
-  background-color: #000;
-}
-}
-
-/*990px*/
-@media (min-width: 990px) {
-  .navbar{
-    background-color: #F90716;
-  }
-}
-
-/*1320px*/

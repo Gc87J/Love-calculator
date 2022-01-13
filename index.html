@@ -9,8 +9,9 @@
 <link rel="stylesheet" href="/styles.css">
 
 <!--This is the link for the google fonts-->
-
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Open+Sans:wght@700&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,400;1,600&family=Roboto&family=Sacramento&family=The+Nautigal&display=swap" rel="stylesheet">
 <!--This is the link to the favicons icon-->
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 </head>
@@ -26,24 +27,24 @@
 
   <!--The check box for the two buttons-->
     <div class="checkboxs-parent">
-      <p class="checkbox-title">Check your gender:</p><br>
-      <input type="radio" size="200px" id="male">
+      <p class="checkbox-title">Check your gender:</p>
+      <input name="male" type="radio" size="200px" id="male">
       <label for="Male" >Male</label><br>
 
-      <input type="radio" id="female">
+      <input name="female" type="radio" id="female">
       <label for="female">Female</label>
     </div>
   <!--The end of the checkboxes-->
-  <!--Text to the right of the checkboxes-->
+  <!--Text to the right of the checkboxes
+  
   <div class="body-text">
       <p class="top-text">
           <table> This Calculator will help you an that<br>speical person know just how compatible you both are. </table>
       </p>
-  </div>
+  </div>-->
   <!--This end of the text-->
 
   <div class="body-par">
-
     <p class="par-text"></p>
     <p class="par-sign">%</p>
   </div>
@@ -55,23 +56,14 @@
 
         <input type="text" size="30" class="female-input-field" placeholder="Enter Female name here"><br>
 
-  <!--SUBMIT BUTTON-->
-  <div class="main-btn-parent">
-        <button type="submit" class="input-btn">SUBMIT
-        </button>
-  </div>
+    <!--SUBMIT BUTTON-->
+    <div class="main-btn-parent">
+          <button type="submit" class="input-btn">SUBMIT
+          </button>
+    </div>
   </div>
   <!--The end of the input fields-->
 
-  <!--This is where the user who enters the info will see the answer(start) -->
-  <!--
-  <div class="popup-body">
-    <p class="answer-popup">This is where the answers should go.</p>
-  </div>-->
-  
-
-
-  <!--This is where the user who enters the info will see the answer(end) -->
   
   <!--This is the link to the javascript script tag-->
 
