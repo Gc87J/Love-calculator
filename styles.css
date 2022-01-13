@@ -8,6 +8,7 @@
 }
 .nav-brand h2{
   font-family: 'roboto', sans-serif;
+  margin-left: 10px;
   font-size: 100;
 }
 body{
@@ -22,17 +23,20 @@ body{
   display: flex;
   position: relative;
   top: 8em;
-  left: 10em;
+  left: 9em;
   
 
 }
-.body-par.par-text{
-  
+.body-par p{
+  font-size: xxx-large;
+}
+.body-par .par-text{
+  color: #ff0000;
 }
 .main-input-parent{
   position: relative;
   top: 13em;
-  left: 2em;
+  left: 5em;
   line-height: 5em;
   
 }
@@ -41,16 +45,17 @@ body{
   width: 300px;
   border: 1px solid #000;
   border-radius: 20em;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #000;
   background-color:#EDD2F3 ;
   text-align: center;
   font-family: montserrat, sans-serif;
+  font-weight: bold;
 
 }
 .main-btn-parent {
   position: absolute;
-  left: 5em;
+  left: 4.5rem;
 }
 .main-btn-parent button{
   padding: 10px 40px 10px 40px;
@@ -60,4 +65,49 @@ body{
   background-color: #EDD2F3;
   border-radius: 20em;
   font-family: montserrat;
+}
+
+/*Tablet view 561px*/
+@media all and (min-width: 561px) {
+.body-par{
+    left: 20rem;
+    top: 10em;
+  }
+.main-input-parent{
+  position: relative;
+  top: 15em;
+  left: 8rem;
+}
+.main-input-parent input {
+  height: 30px;
+  width: 250px;
+  font-size: 14px;
+  color: #000;
+}
+.main-btn-parent{
+  position: absolute;
+  left: 11em;
+}
+
+
+}
+
+/*desktop view*/
+@media all and (min-width: 880px) {
+.body-par{
+  top: 13em;
+  left: 40em;
+}
+.main-input-parent{
+  left: 20em;
+  
+}
+.main-input-parent input{
+  height: 30px;
+  width: 400px;
+}
+.main-btn-parent{
+  left: 20em;
+  top: 7em;
+}
 }
