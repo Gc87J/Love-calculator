@@ -86,57 +86,12 @@ body{
 }
 .main-btn-parent{
   position: absolute;
-<<<<<<< HEAD
-  left: 11em;
-=======
-  left: 35%;
-  line-height: 10rem;
-}
-.input-btn{
-  padding: 1rem 3rem 1rem 3rem;
-  font-weight: bold;
-  font-size: larger;
-  border-radius: 1rem;
-  background-color: #EDD2F3;
-  border-color: transparent;
-  }
-
-
-/*Input field for the info from the user end*/
-
-/*This is for the pop up*/
-/*
-.popup-body{
-position: absolute;
-left: 40%;
-width: 350px;
-height: 350px;
-border: #000 solid 2px;
-background-color: transparent;
-visibility: hidden;
-}
-.answer-popup{
-position: relative;
-top: 40%;
-
-}
-*/
-
-/*Media Queries*/
-
-
-/*320px*/
-@media (min-width: 320px) {
-.navbar{
-  background-color: #000;
-}
->>>>>>> 231dbf755a1e936e1070f6660f6e8d5ab398cd87
+  left: 11rem;
 }
 
 
 }
 
-<<<<<<< HEAD
 /*desktop view*/
 @media all and (min-width: 880px) {
 .body-par{
@@ -156,11 +111,3 @@ top: 40%;
   top: 7em;
 }
 }
-=======
-/*1320px*/
-@media (min-width: 1320px) {
-  .navbar{
-    background-color: #FFFCDC;
-  }
-}
->>>>>>> 231dbf755a1e936e1070f6660f6e8d5ab398cd87
