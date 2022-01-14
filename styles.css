@@ -15,30 +15,41 @@ body{
   background: #84DFFF;
 }
 .checkboxs-parent{
+  display: block;/**/
   position: relative;
   left: 15px;
   font-size: 20px;
 }
 .body-par{
-  display: none;
+  display: none;/**/
   position: relative;
-  top: 8em;
+  top: 11em;
   left: 9em;
-  font-size: xxx-large;
-  color: #ff0000;
+  
 
 }
-/*
+
 .body-par p{
-  font-size: xxx-large;
+  font-size: 3.5rem;
 }
 .body-par .par-text{
   color: #ff0000;
-}*/
+}
+.ans-par{
+position: absolute;
+top: 18em;
+text-align: center;
+}
+.ans-returned{
+  display:none;
+  font-size: 1.5rem;
+  font-family: 'montserrat' sans-serif, Helvetica;
+}
 .main-input-parent{
+  display:  block;/**/
   position: relative;
   top: 13em;
-  left: 5em;
+  left: 2.5rem;
   line-height: 5em;
   
 }
@@ -55,6 +66,10 @@ body{
   font-weight: bold;
 
 }
+.main-input-parent input:hover {
+  box-shadow: 1px 5px 20px #000;
+}
+
 .main-btn-parent {
   position: absolute;
   left: 4.5rem;
@@ -67,6 +82,9 @@ body{
   background-color: #EDD2F3;
   border-radius: 20em;
   font-family: montserrat;
+}
+.main-btn-parent button:hover {
+  box-shadow: 1px 5px 20px #000;
 }
 
 /*Tablet view 561px*/

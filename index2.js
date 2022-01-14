@@ -1,179 +1,169 @@
 
-/* This is the creation of the random numnber start*/
+/* This is the creation of the random numnber start*/  
+const bodyPar = document.querySelector(".par-text");
 
-  
-const percentage = document.querySelector(".body-par");
+const displayedPercentage = Math.floor(Math.random() * 103) + 1;
 
-const fullPercentage = percentage.textContent = Math.floor(Math.random() * 103) + 1;
-
-
- 
-const submitBtn = document.querySelector("h2");
-
-submitBtn.addEventListener("click",show);
+const fullPercentage = bodyPar.textContent = displayedPercentage;
 
 
-
-
-function show(){
-  fullPercentage.style.display = "flex";
-}
 
 
 /*This is the creation of the random number end*/
 
+/* This is the input field    */
+let maleUserName = document.querySelector(".male-input-field");
+
+let femaleUserName = document.querySelector(".female-input-field");
 
 
-/* start */
-/*
-let maleUserName = document.querySelector(".male-input-field")
-
-let femaleUserName = document.querySelector(".female-input-field")
-
-let submitBtn = document.querySelector(".input-btn")
-
-submitBtn.addEventListener("click", submitted )
-
-function submitted(){
-if (percentage < 20) {
-
-  return "LETS GO BABY"
-}
-};
-*/
-
-/* end */
-
-
-
-
-/*This is foe the male button start*/
-/*
-
-let male = document.querySelector("#male")
-
-let female = document.querySelector("#female")
-
-male.addEventListener("click", maleRespond)
-
-female.addEventListener("click",femaleRespond )
-
-function randomNumber() {
-
- let n = Math.random();
- n = n * 102 + 1;
- rndNum = Math.floor(n)
+/*This is the button lets the results pop up on the website*/
+const header = document.querySelector(".body-par");
  
+const submitBtn = document.querySelector(".input-btn");
+
+const inputFields = document.querySelector(".main-input-parent");
+
+const gender = document.querySelector(".checkboxs-parent");
+
+submitBtn.addEventListener("click",show);
+submitBtn.addEventListener("click", hide)
+
+
+function show(){
+  header.style.display = "flex";
+  ansReturned.style.display = "block";
+}
+/*this function hides the input fields while the show function is activated*/ 
+function hide(){
+inputFields.style.display = "none";
+gender.style.display = "none";
 
 }
-alert(rndNum)
 
-function maleRespond() {
-  
-  
 
-};
 
-function femaleRespond() {
-  
-  
+
+
+
+
+
+/*----------------------------------------*/
+
+/*This is for the radio buttons */
+
+const maleRadioBtn = document.querySelector("#male");
+
+const femaleRadioBtn = document.querySelector("#female");
+
+
+
+maleRadioBtn.addEventListener("click", maleAnswers);
+
+femaleRadioBtn.addEventListener("click", femaleAnswers);
+
+
+function maleAnswers() {
+
+
 }
 
-function maleTesting(){
-  
-  
-}  
+function femaleAnswers() {
 
-function femaleTesting() {
-  
-} 
-
-/*Below here is the code for the section that shows the respondes*/
-/*
-let completeAnswer = document.querySelector(".user-answer")
+}
+/*----------------------------------------*/
 
 
 
-completeAnswer.innerHTML 
-*/
-
-
-/*Above here is the code for the section that shows the respondes*/
 
 
 
-/*This is the end of the male button function*/
+
+
+
+
 
 /*THE IF STATEMENTS FOR THE MALE ANSWERS*/
 
-/*
-if ( percentage < 20 ) {
+/*So the statement below show a range of different results depending on the range of the number*/
+const ansReturned = document.querySelector(".ans-returned");
 
-return "Nigga get tf outa here, you know that"+ femaleUserName+ " is not fucking with you bro. SHE DON'T LIKE YOU BRO, GO GET A LIFE."  
-}
 
-else if (percentage <= 35 && >=20 ) {
+function maleAns() {
+    if(displayedPercentage < 20 ){
 
-  return "Haha, you really think "+femaleUserName+ " likes you smh? Get back to reality bro.. "
+    return  "Nigga get tf outa here, you know that is not fucking with you bro. SHE DON'T LIKE YOU BRO, GO GET A LIFE."
+    }
+
+
+else if ( displayedPercentage <= 35 && displayedPercentage >=20 ) {
+
+  return "Haha, you really think  likes you smh? Get back to reality bro.. "
 }  
 
-else if (percentage <= 50 && >=35) {
+else if (displayedPercentage <= 50 && displayedPercentage >=35) {
 
-  return "Okay, we are getting somewhere. Did you tell "+femaleUserName+ " yet? What are you waiting on?"
+  return "Okay, we are getting somewhere. Did you tell  yet? What are you waiting on?"
 }  
 
-else if (percentage <= 80 && >=50) {
+else if (displayedPercentage <= 80 && displayedPercentage >=50) {
 
-  return "Yes my brother, "+femaleUserName+" should really know you like her."
+  return "Yes my brother,  should really know you like her."
 }  
 
-else if (percentage <= 95 && >= 80) {
+else if (displayedPercentage <= 95 && displayedPercentage >= 80) {
 
-  return "City boys we up!! Bro at this point minimum"+femaleUserName+" she is getting dicked down."
+  return "City boys we up!! Bro at this point minimum she is getting dicked down."
 }  
 
-else if (percentage <= 100 && >= 95) {
+else if (displayedPercentage <= 100 && displayedPercentage >= 95) {
 
   return "TF you doing here bro, get off here an go fuck that bicth. She wants you"
 }  
 
-else if (percentage > 100) {
+else if (displayedPercentage > 100) {
 
   return "Fuck it, at this point the both of you should have been already have baby together already."
-}  
-*/
+} 
+} 
+
+
+ansReturned.textContent = maleAns();
+
+
 
 /*The end of the male respondes*/
 
 
 /*The start of the female respondes*/
 /*
+function femaleAns(){
 if (percentage < 20) {
 
   return "My friend tf you doing, you know that "+maleUserName+ " is not fucking with you . HE DON'T LIKE YOU, GO GET A LIFE."
 }
 
-else if (percentage <= 35 && >=20 ){
+else if (percentage <= 35 && percentage >=20 ){
 
 return "Haha, you really think "+maleUserName+" likes you smh? Get back to reality lmao.."
 }
 
-else if (percentage <= 50 && >=35){
+else if (percentage <= 50 && percentage >=35){
 
 return "Okay, we are getting somewhere. Did you tell "+maleUserName+" yet? What are you waiting on?"
 }
 
-else if (percentage <= 80 && >=50){
+else if (percentage <= 80 && percentage >=50){
 
 return "Yes my sister, "+maleUserName+" should really know you like him."
 }
 
-else if (percentage <= 95 && >= 80){
+else if (percentage <= 95 && percentage >= 80){
 
 return " City girls we up!! At this point minimum "+maleUserName+" should be getting the gawk gawk 3000 from you."
 }
 
-else if (percentage <= 100 && >= 95){
+else if (percentage <= 100 && percentage >= 95){
 
 return "TF you doing here, get off here an go fuck that nigga.He wants you "
 }
@@ -182,8 +172,10 @@ else if (percentage > 100){
 
 return "Fuck it, at this point the both of you should have been already have baby together already."
 }
+}
 
 */
+
 
 
 /*The end of the female respondes*/
