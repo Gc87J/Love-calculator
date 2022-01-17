@@ -101,7 +101,7 @@ function generalAns() {
 
     return "Okay, we are getting somewhere. Did you tell" +femaleUserName+" yet? What are you waiting on?"
   }
-  
+
   else if (displayedPercentage <=80 && displayedPercentage >=50) {
 
     return "Yes my brother, "+femaleUserName+" should really know you have a crush on her.  "
