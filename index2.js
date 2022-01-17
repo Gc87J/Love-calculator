@@ -18,6 +18,7 @@ let femaleUserName = document.querySelector(".female-input-field");
 
 
 /*This is the button lets the results pop up on the website*/
+
 const header = document.querySelector(".body-par");
  
 const submitBtn = document.querySelector(".input-btn");
@@ -26,8 +27,8 @@ const inputFields = document.querySelector(".main-input-parent");
 
 const gender = document.querySelector(".checkboxs-parent");
 
-submitBtn.addEventListener("click",show);
-submitBtn.addEventListener("click", hide)
+submitBtn.addEventListener("click", show);
+submitBtn.addEventListener("click", hide);
 
 
 function show(){
@@ -51,7 +52,7 @@ gender.style.display = "none";
 /*----------------------------------------*/
 
 /*This is for the radio buttons */
-
+/*
 const maleRadioBtn = document.querySelector("#male");
 
 const femaleRadioBtn = document.querySelector("#female");
@@ -71,6 +72,7 @@ function maleAnswers() {
 function femaleAnswers() {
 
 }
+*/
 /*----------------------------------------*/
 
 
