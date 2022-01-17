@@ -78,7 +78,7 @@ top: 20rem;
   display: block;/**/
   position: absolute;
   top: 19rem;
-  left: 17%;
+  left: 13%;
   line-height: 5em;
   
 }
@@ -115,10 +115,12 @@ top: 20rem;
   background-color: #fff;
   border-radius: 20em;
   font-family: montserrat;
+  color: #000;
 }
 .main-btn-parent button:hover {
   box-shadow: 1px 5px 20px #ddd;
   background-color: #ddd;
+  color:#000;
   cursor: pointer;
 }
 
