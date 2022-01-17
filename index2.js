@@ -7,34 +7,6 @@ const displayedPercentage = Math.floor(Math.random() * 103) + 1;
 const fullPercentage = bodyPar.textContent = displayedPercentage;
 
 
-/*This is for the radio buttons */
-/*
-const maleRadioBtn = document.querySelector(".male");
-
-const femaleRadioBtn = document.querySelector(".female");
-
-
-
-maleRadioBtn.addEventListener("click", maleAnswers);
-
-femaleRadioBtn.addEventListener("click", femaleAnswers);
-
-
-function maleAnswers() {
-
-
-}
-
-function femaleAnswers() {
-
-
-}
-*/
-
-/*----------------------------------------*/
-
-
-
 
 
 /*This is the creation of the random number end*/
@@ -46,6 +18,7 @@ let femaleUserName = document.querySelector(".female-input-field");
 
 
 /*This is the button lets the results pop up on the website*/
+
 const header = document.querySelector(".body-par");
  
 const submitBtn = document.querySelector(".input-btn");
@@ -56,7 +29,6 @@ const gender = document.querySelector(".checkboxs-parent");
 
 submitBtn.addEventListener("click", show);
 submitBtn.addEventListener("click", hide);
-
 
 
 function show(){
@@ -77,24 +49,31 @@ gender.style.display = "none";
 
 
 
-
 /*----------------------------------------*/
 
+/*This is for the radio buttons */
+/*
+const maleRadioBtn = document.querySelector("#male");
 
-const ansReturned = document.querySelector(".ans-returned");
- 
-/*General responses for the calculator*/
-
-
-
+const femaleRadioBtn = document.querySelector("#female");
 
 
 
+maleRadioBtn.addEventListener("click", maleAnswers);
+
+femaleRadioBtn.addEventListener("click", femaleAnswers);
 
 
+function maleAnswers() {
 
 
+}
 
+function femaleAnswers() {
+
+}
+*/
+/*----------------------------------------*/
 
 
 
@@ -109,12 +88,13 @@ const ansReturned = document.querySelector(".ans-returned");
 /*THE IF STATEMENTS FOR THE MALE ANSWERS*/
 
 /*So the statement below show a range of different results depending on the range of the number*/
+const ansReturned = document.querySelector(".ans-returned");
 
-/*
+
 function maleAns() {
-  if(displayedPercentage < 20 ){
+    if(displayedPercentage < 20 ){
 
-  return  "Nigga get tf outa here, you know that is not fucking with you bro. SHE DON'T LIKE YOU BRO, GO GET A LIFE."
+    return  "Nigga get tf outa here, you know that is not fucking with you bro. SHE DON'T LIKE YOU BRO, GO GET A LIFE."
     }
 
 
@@ -151,7 +131,7 @@ else if (displayedPercentage > 100) {
 
 
 ansReturned.textContent = maleAns();
-*/
+
 
 
 /*The end of the male respondes*/
@@ -160,49 +140,45 @@ ansReturned.textContent = maleAns();
 /*The start of the female respondes*/
 /*
 function femaleAns(){
-if (displayedPercentage < 20) {
+if (percentage < 20) {
 
   return "My friend tf you doing, you know that "+maleUserName+ " is not fucking with you . HE DON'T LIKE YOU, GO GET A LIFE."
 }
 
-else if (displayedPercentage <= 35 && displayedPercentage >=20 ){
+else if (percentage <= 35 && percentage >=20 ){
 
 return "Haha, you really think "+maleUserName+" likes you smh? Get back to reality lmao.."
 }
 
-else if (displayedPercentage <= 50 && displayedPercentage >=35){
+else if (percentage <= 50 && percentage >=35){
 
 return "Okay, we are getting somewhere. Did you tell "+maleUserName+" yet? What are you waiting on?"
 }
 
-else if (displayedPercentage <= 80 && displayedPercentage >=50){
+else if (percentage <= 80 && percentage >=50){
 
 return "Yes my sister, "+maleUserName+" should really know you like him."
 }
 
-else if (displayedPercentage <= 95 && displayedPercentage >= 80){
+else if (percentage <= 95 && percentage >= 80){
 
 return " City girls we up!! At this point minimum "+maleUserName+" should be getting the gawk gawk 3000 from you."
 }
 
-else if (displayedPercentage <= 100 && displayedPercentage >= 95){
+else if (percentage <= 100 && percentage >= 95){
 
 return "TF you doing here, get off here an go fuck that nigga.He wants you "
 }
 
-else if (displayedPercentage > 100){
+else if (percentage > 100){
 
 return "Fuck it, at this point the both of you should have been already have baby together already."
 }
-
-
-
 }
 
-ansReturned.textContent = femaleAns();
 */
 
 
-/*The end of the female respondes*/
 
+/*The end of the female respondes*/
 
