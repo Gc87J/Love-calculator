@@ -1,2 +1,4 @@
-These are some of the colors i might want my calculator to be in:
-#516BEB, #84DFFF, #FFFCDC, #EDD2F3
+This calculator will be used to determine how into you someone is. Right now it is really curated for males but in the future it will also support female. 
+
+
+I hope you have fun with it 

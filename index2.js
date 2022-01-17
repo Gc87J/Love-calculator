@@ -7,7 +7,7 @@ const displayedPercentage = Math.floor(Math.random() * 103) + 1;
 const fullPercentage = bodyPar.textContent = displayedPercentage;
 
 
-
+alert("I hope you Have Fun :)")
 
 /*This is the creation of the random number end*/
 
