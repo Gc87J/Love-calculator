@@ -21,7 +21,7 @@ body{
   font-size: 20px;
 }
 .body-par{
-  display: none;/**/
+  display: none;
   position: relative;
   top: 11em;
   left: 9em;
