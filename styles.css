@@ -1,73 +1,106 @@
+
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 .navbar{
-  background: #FFFCDC;
+  position: relative;
+  background: #ff0000;
+  
 }
 .nav-brand h2{
-  font-family: 'roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin-left: 10px;
   font-size: 100;
 }
+
 body{
-  background: #84DFFF;
+  background: #000;
 }
 .checkboxs-parent{
   display: block;/**/
-  position: relative;
+  position: absolute;
   left: 15px;
   font-size: 20px;
+  color: #fff;
 }
 .body-par{
-  display: none;/**/
-  position: relative;
-  top: 11em;
-  left: 9em;
-  
+  display: none;
+  position: absolute;
+  top: 12rem;
+  left: 40%;
+
 
 }
-
 .body-par p{
   font-size: 3.5rem;
+  color: #fff;
 }
 .body-par .par-text{
   color: #ff0000;
 }
 .ans-par{
 position: absolute;
-top: 18em;
-text-align: center;
+top: 20rem;
+
 }
 .ans-returned{
-  display:none;
+  display:none;/**/
   font-size: 1.5rem;
-  font-family: 'montserrat' sans-serif, Helvetica;
+  font-family: 'monsterrat', sans-serif;
+  color: #fff;
+  text-align: center;
+  line-break: normal;
 }
+.reload-btn{
+  display: none;/**/
+  padding: 10px 40px 10px 40px;
+  border:1px solid #EDD2F3;
+  font-size: large;
+  font-weight: bold;
+  background-color: #fff;
+  border-radius: 20em;
+  font-family: 'montserrat';
+  margin-top: 28rem;
+  margin-left: 31%;
+}
+.reload-btn:hover {
+  box-shadow: 1px 5px 20px #ddd;
+  background-color: #ddd;
+  cursor: pointer;
+  
+}
+
+/*               */
+
 .main-input-parent{
-  display:  block;/**/
-  position: relative;
-  top: 13em;
-  left: 2.5rem;
+  display: block;/**/
+  position: absolute;
+  top: 19rem;
+  left: 17%;
   line-height: 5em;
   
 }
+
 .main-input-parent input {
   height: 30px;
   width: 300px;
   border: 1px solid #000;
   border-radius: 20em;
   font-size: 1.25rem;
-  color: #000;
-  background-color:#EDD2F3 ;
+  color: #fff;
+  background-color:#fff ;
   text-align: center;
   font-family: montserrat, sans-serif;
   font-weight: bold;
 
 }
 .main-input-parent input:hover {
-  box-shadow: 1px 5px 20px #000;
+  box-shadow: 1px 5px 20px #ddd;
+  background-color: #ddd;
+  color: #000;
+
 }
 
 .main-btn-parent {
@@ -79,44 +112,54 @@ text-align: center;
   border:1px solid #EDD2F3;
   font-size: large;
   font-weight: bold;
-  background-color: #EDD2F3;
+  background-color: #fff;
   border-radius: 20em;
   font-family: montserrat;
 }
 .main-btn-parent button:hover {
-  box-shadow: 1px 5px 20px #000;
+  box-shadow: 1px 5px 20px #ddd;
+  background-color: #ddd;
+  cursor: pointer;
 }
 
 /*Tablet view 561px*/
-@media all and (min-width: 561px) {
+@media all and (min-width: 570px) {
 .body-par{
-    left: 20rem;
-    top: 10em;
+  left: 22rem;
+  top: 10em;
   }
 .main-input-parent{
-  position: relative;
+  position: absolute;
   top: 15em;
-  left: 8rem;
+  left: 15%;
 }
 .main-input-parent input {
-  height: 30px;
-  width: 250px;
+  height: 130%;
+  width: 100%;
   font-size: 14px;
   color: #000;
 }
 .main-btn-parent{
   position: absolute;
-  left: 11rem;
+  left: 7rem;
+}
+.reload-btn{
+margin-top: 33rem;
+margin-left: 20rem;
+
 }
 
 
 }
+
+
+
 
 /*desktop view*/
 @media all and (min-width: 880px) {
 .body-par{
   top: 13em;
-  left: 40em;
+  left: 45rem;
 }
 .main-input-parent{
   left: 20em;
@@ -130,4 +173,13 @@ text-align: center;
   left: 20em;
   top: 7em;
 }
+.ans-par{
+  position: absolute;
+  left: 11rem;
+}
+
+.reload-btn{
+  margin-left: 42rem;
+}
+
 }
