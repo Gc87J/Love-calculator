@@ -6,7 +6,7 @@
 }
 .navbar{
   position: relative;
-  background: #ff0000;
+ /* background: #ff0000;*/
   
 }
 .nav-brand h2{
@@ -16,14 +16,17 @@
 }
 
 body{
-  background: #000;
+  background: url(/Assets/images/Hearts.png) no-repeat center center;
+  background-size: cover;
+  width: auto;
+  
 }
 .checkboxs-parent{
   display: block;/**/
   position: absolute;
   left: 15px;
   font-size: 20px;
-  color: #fff;
+  color: #000;
 }
 .body-par{
   display: none;
