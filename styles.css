@@ -16,10 +16,7 @@
 }
 
 body{
-  background: url(/Assets/images/Hearts.png) no-repeat center center;
-  background-size: cover;
-  width: auto;
-  
+  background-color:#ddd ;
 }
 .checkboxs-parent{
   display: block;/**/

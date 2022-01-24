@@ -37,7 +37,7 @@ function show(){
   bodyPara.style.display = "flex";
   ansReturned.style.display = "block";
   reloadBtn.style.display = "block";
-  maleAns();
+  runMale();
   
 }
 /*this function hides the input fields while the show function is activated*/ 
@@ -87,7 +87,7 @@ function femaleAnswers() {
 /*THE IF STATEMENTS FOR THE MALE ANSWERS*/
 
 /*So the statement below show a range of different results depending on the range of the number*/
-const ansReturned = document.querySelector(".ans-returned");
+
 
 /*General responses for the calculator*/
 /*
@@ -134,6 +134,9 @@ reloadBtn.addEventListener("click", reloadButton);
 function reloadButton() {
   window.location.reload()
 }
+/****************************** */
+
+const ansReturned = document.querySelector(".ans-returned");
 
 function runMale() {
   maleAns();
@@ -176,16 +179,11 @@ function maleAns() {
   }
 }
 
-
-
-
-
-
 /*The end of the male respondes*/
 
 
 /*The start of the female respondes*/
-/*
+
 function femaleAns(){
 if (percentage < 20) {
 
@@ -222,26 +220,10 @@ else if (percentage > 100){
 return ansReturned.textContent = "Fuck it, at this point the both of you should have been already have baby together already."
 }
 }
-*/
+
 
 
 
 
 /*The end of the female respondes*/
-
-
-// const testing = document.querySelector(".testing");
-
-// const btnTest = document.querySelector(".btn-test");
-
-// const testHere = document.querySelector(".test-here")
-
-// btnTest.addEventListener("click", runTest);
-
-// function runTest() {
-
-//   return testHere.textContent = "rel "+testing.value+" g";
-// }
-
-
 
