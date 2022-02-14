@@ -17,6 +17,8 @@
 body{
   background-color:#ddd ;
 }
+
+
 .checkboxs-parent{
   display: block;/**/
   position: absolute;
@@ -24,6 +26,18 @@ body{
   font-size: 20px;
   color: #000;
 }
+
+.body-text{
+  margin-left: 20%;
+  margin-top: 28%;
+}
+
+.body-text p{
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+ 
+}
+
 .body-par{
   display: none;
   position: absolute;
@@ -74,7 +88,7 @@ top: 20rem;
 /*               */
 
 .main-input-parent{
-  display: block;/**/
+  display: block;
   position: absolute;
   top: 19rem;
   left: 13%;
@@ -91,7 +105,7 @@ top: 20rem;
   color: #fff;
   background-color:#fff ;
   text-align: center;
-  font-family: montserrat, sans-serif;
+  font-family: "montserrat", sans-serif;
   font-weight: bold;
 
 }
@@ -117,11 +131,17 @@ top: 20rem;
   color: #000;
 }
 .main-btn-parent button:hover {
-  box-shadow: 1px 5px 20px #ddd;
-  background-color: #ddd;
-  color:#000;
+  box-shadow: 1px 5px 20px #000;
+  color: #fff;
+  background-color:#000 ;
+  border: none;
+  
   cursor: pointer;
+  
 }
+
+
+
 
 /*Tablet view 561px*/
 @media all and (min-width: 570px) {
@@ -166,6 +186,13 @@ margin-left: 20rem;
   left: 20em;
   
 }
+
+.body-text{
+  margin-left:40%;
+  margin-top: 10%;
+}
+
+
 .main-input-parent input{
   height: 30px;
   width: 400px;

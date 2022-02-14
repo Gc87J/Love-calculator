@@ -28,6 +28,8 @@ const inputFields = document.querySelector(".main-input-parent");
 
 const gender = document.querySelector(".checkboxs-parent");
 
+const bodyText = document.querySelector(".body-text");
+
 submitBtn.addEventListener("click", show);
 submitBtn.addEventListener("click", hide);
 
@@ -44,6 +46,7 @@ function show(){
 function hide(){
 inputFields.style.display = "none";
 gender.style.display = "none";
+bodyText.style.display = "none";
 
 }
 
@@ -69,6 +72,7 @@ function bothGender() {
 
 function maleAnswers() {
   if (maleRadioBtn.checked){
+
   if (displayedPercentage < 20 ) {
     return ansReturned.textContent = "Get the fuck out of here, you know "+femaleUserName.value+" is not fucking with  you bro. SHE  DON'T LIKE YOU BRO, GO GET A FUCKING LIFE DAMN."
   }
@@ -95,7 +99,6 @@ function maleAnswers() {
   }
   
 }
-
 
 }
 
@@ -141,7 +144,7 @@ function femaleAnswers() {
     }
     
   }
-  
+
 }
 
 
